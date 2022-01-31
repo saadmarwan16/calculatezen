@@ -15,26 +15,9 @@ body {
     margin-bottom: 32px !important;
 }
 
-.calculator-input input {
-    background: #1F1B2E !important;
+.calculator-input textarea {
+    -webkit-text-fill-color: #F0FDFD !important;
     color: #F0FDFD;
     text-align: end;
     font-size: 32px;
-    text-decoration: none;
-}
-
-.calculator-input input:before {
-    border-bottom: none !important;
-}
-
-.calculator-input input:after {
-    border-bottom: none !important;
-}
-
-.css-cio0x1-MuiInputBase-root-MuiFilledInput-root:before {
-    border-bottom: none;
-}
-
-.css-cio0x1-MuiInputBase-root-MuiFilledInput-root:after {
-    border-bottom: none;
 }
